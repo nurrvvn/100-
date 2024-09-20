@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    font-family: "Poppins", sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    height: 420px;
+    width: 730px;
+    border-radius: 30px;
+}
+
+.box{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 380px;
+    height: 420px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right{
+    width: 350px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}    
+
+.right h3{
+    margin-top: 30px;
+}
+
+.ppp{
+    display: flex;
+    flex-direction: row;
+}
+
+.bt1{
+    background-color: hsla(0, 100%, 67%, 0.362);
+    width: 300px;
+    height: 40px;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: hsla(0, 100%, 67%);
+    justify-content: space-around;
+}
+
+.bt2{
+    background-color:hsla(39, 100%, 56%, 0.295);
+    width: 300px;
+    height: 40px;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: hsl(39, 100%, 56%);
+    justify-content: space-around;
+}
+
+.bt3{
+    background-color:hsl(166, 100%, 37%, 0.295);
+    width: 300px;
+    height: 40px;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: hsl(166, 100%, 37%);
+    justify-content: space-around;
+}
+
+.bt4{
+    background-color:hsl(234, 85%, 45%, 0.295);
+    width: 300px;
+    height: 40px;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:hsl(234, 85%, 45%);
+    justify-content: space-around;
+}
+
+button{
+    background-color: hsl(241, 79%, 58%);
+    width: 190px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.circle{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    color: aliceblue;
+}
+
+.box h1{
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.circle h1{
+    font-size: 60px;
+}
+
+.circle p{
+    font-size: 20px;
+}
+
+.R{
+    color: rgba(208, 204, 204, 0.9);
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.PP{
+    color:  rgba(208, 204, 204, 0.9);
+    font-size: 11px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 35px;
+
+}
